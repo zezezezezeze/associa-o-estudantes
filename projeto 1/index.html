@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+	<!--icon da pagina-->
+    	<link rel="apple-touch-icon" sizes="57x57" href="favi/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favi/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favi/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favi/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favi/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favi/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favi/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favi/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favi/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favi/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favi/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">
+		<link rel="manifest" href="favi/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favi/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	<!-- cena que tava ca antes-->
+		<meta charset="utf-8">
+    <!--css do bootstrap-->
+		<link href="css/bootstrap.css" rel="stylesheet">
+    <!--css do menu-->
+    	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		
+	<!--css do slider-->
+		<link href="css/menu.css" rel="stylesheet">
+		<script src="css/menu.js"></script>
+		<link href="css/slider.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+		
+<body>
+<!-- inicio menu-->
+	<nav id="header" class="navbar navbar-fixed-top">
+            <div id="header-container" class="container navbar-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand" href="#"><img src="https://pbs.twimg.com/profile_images/844634818449227778/_XTjyZUY_400x400.jpg"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+<!-- fim menu-->
+<!-- inicio slider-->
+<div class="container">
+	
+	<div data-am-fadeshow="next-prev-navigation">
+
+		<!-- Radio -->
+		<input type="radio" name="css-fadeshow" id="slide-1" />
+		<input type="radio" name="css-fadeshow" id="slide-2" />
+		<input type="radio" name="css-fadeshow" id="slide-3" />
+
+		<!-- Slides -->
+		<div class="fs-slides">
+			<div class="fs-slide" style="background-image: url(https://images.unsplash.com/photo-1460500063983-994d4c27756c?crop=entropy&fit=crop&fm=jpg&h=1325&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2550);">
+				<!-- Add content to images (sample) -->
+				<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+					<h1 style="margin-top: 0; margin-bottom: 0.8vw; font-size: 5vw; font-weight: bold;">CSS Fadeshow</h1>
+					<p style="font-size: 2vw; font-weight: 100; margin-top: 0;">Easy to implement and use on <strong>your</strong> site!</p>
+				</div>
+			</div>
+			<div class="fs-slide" style="background-image: url(https://images.unsplash.com/photo-1440557653082-e8e186733eeb?crop=entropy&fit=crop&fm=jpg&h=1325&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2500);"></div>
+			<div class="fs-slide" style="background-image: url(https://images.unsplash.com/photo-1449057528837-7ca097b3520c?crop=entropy&fit=crop&fm=jpg&h=1325&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2500);"></div>
+		</div>
+
+		<!-- Quick Navigation -->
+		<div class="fs-quick-nav">
+			<label class="fs-quick-btn" for="slide-1"></label>
+			<label class="fs-quick-btn" for="slide-2"></label>
+			<label class="fs-quick-btn" for="slide-3"></label>
+		</div>
+		
+		<!-- Prev Navigation -->
+		<div class="fs-prev-nav">
+			<label class="fs-prev-btn" for="slide-1"></label>
+			<label class="fs-prev-btn" for="slide-2"></label>
+			<label class="fs-prev-btn" for="slide-3"></label>
+		</div>
+		
+		<!-- Next Navigation -->
+		<div class="fs-next-nav">
+			<label class="fs-next-btn" for="slide-1"></label>
+			<label class="fs-next-btn" for="slide-2"></label>
+			<label class="fs-next-btn" for="slide-3"></label>
+		</div>
+
+	</div>
+	
+</div>
+<!--fim slider-->
+
+</body>
+</html>

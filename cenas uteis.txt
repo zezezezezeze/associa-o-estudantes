@@ -1,0 +1,24 @@
+cores:						cores da Bia:
+	-rosa #b75f5f				vermelho:rgb(133, 33, 47)
+	-vermelho #ed382			rgb(153, 0, 0)
+	-vermelho escuro #b73122 #4c130d	baixo #d68571
+	-"preto": #1c0000			baixo #AD5D5D
+	-branco #fff				 cima #bc5a45 e baixo #f18973
+						HEX: #d96459
+http://www.thepictaram.club/instagram/ae_csjb	
+https://pt-br.facebook.com/AECSJB201718/
+https://www.favicon-generator.org/
+https://bootsnipp.com/snippets/rlPnP
+https://www.w3schools.com/
+file:///C:/Users/Aluno/Desktop/aplica%C3%A7%C3%B5es%20informaticas%20(NAO%20APAGAR)/projeto/projeto%201/index.html
+
+bootsnips:
+https://bootsnipp.com/snippets/y8vWV
+https://bootsnipp.com/snippets/BqZXr
+https://bootsnipp.com/snippets/jvpAj
+https://bootsnipp.com/snippets/featured/navbar-fixed-on-scrolling-with-transition
+background video-->https://bootsnipp.com/snippets/BEn19
+https://bootsnipp.com/snippets/klk2Q
+
+imgagens do slider grande--> h: 400	w: 1200
+		   pequena--> h:100	w:300

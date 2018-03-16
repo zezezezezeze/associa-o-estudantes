@@ -199,7 +199,57 @@
     background-size: cover;
     height: 135px;
 }
-
+/*imagens de background*/
+.card.hovercard .cardheader1 {
+    background-image:url(../imgs/card%20heads/cardheader1.jpg);
+	background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader2 {
+    background: url(file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader2.jpg);
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader3 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader3.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader4 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader4.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader5 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader5.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader6 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader6.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader7 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader7.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader8 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader8.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader9 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader9.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader10 {
+    background: url("file:///C:/Users/Aluno/Desktop/associa-o-estudantes/projeto%201/imgs/card%20heads/cardheader10.jpg");
+    background-size: cover;
+    height: 135px;
+}
 .card.hovercard .avatar {
     position: relative;
     top: -50px;
